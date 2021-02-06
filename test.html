@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+     <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Test</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	
+	
+	<link rel="stylesheet" href="test.css">
+	
+  </head>
+
+<body>
+	
+<div>
+	<center><img class = "beats" src="images\beats.png" alt="beats logo"/></center>
+</div>
+
+<br/><br/>
+
+<!---------------------- CAROUSEL----------------------------------- -->
+<div id="myCarousel" class="carousel slide" data-interval="false">
+	<center>
+		<div class="container">
+		  <div class="carousel-inner">
+			<div class="carousel-item active">
+			  <img class="image-item" id="item1" onclick="changeText(this)" src="images\kfc.png" class="d-block w-30" alt="KFC">
+			</div>
+			<div class="carousel-item ">
+			  <img class="image-item" id="item2" onclick="changeText(this)" src="images\mcd.png" class="d-block w-30" alt="MCD">
+			</div>
+			<div class="carousel-item">
+			  <img class="image-item" id="item3" onclick="changeText(this)" src="images\nike.png" class="d-block w-30" alt="NIKE">
+			</div>
+			<div class="carousel-item">
+			  <img class="image-item" id="item4" onclick="changeText(this)" src="images\lego.png" class="d-block w-30" alt="LEGO" style="width:400px;">
+			</div>
+			 <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			  </a>
+			  <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			  </a>
+		  </div>
+		</div>
+		
+	</center>
+</div>
+
+<br/>
+<br/>
+<center>
+	<div id="desHeader" class="description" style="border-bottom: 1px solid;">KFC</div>
+	<div id="desbody" class="description" >KFC was founded by Colonel Harland Sanders, an entrepreneur who began selling fried chicken from his roadside restaurant in Corbin, Kentucky, during the Great Depression. Sanders identified the potential of the restaurant franchising concept, and the first "Kentucky Fried Chicken" franchise opened in Utah in 1952.</div>
+
+</center>
+	
+<br/>
+<br/>
+
+<div style="text-align:center;">
+	<input type="number" id="fnum1">
+	<input type="number" id="fnum2">
+	<button onclick="createChart()">Submit</button>
+	
+	<br/>
+	<br/>
+	<div id="doughnut"></div>
+</div>
+
+
+
+
+
+<!--
+<div id="chartContainer" style="height: 300px; width: 100%;">
+	
+</div>
+	-->	
+	
+	<script src="test.js"></script>
+	<script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+ <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+	
+	
+</body>
+</html>
