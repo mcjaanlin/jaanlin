@@ -1,0 +1,36 @@
+.beats {
+	min-width: 500px;
+	max-width: 500px;
+}
+
+.image-item{
+	cursor:pointer;
+}
+
+.image-item:hover{
+	border : 5px solid lightgreen;
+}
+
+.carousel-item {
+	background-color : #777;
+	height: 200px;
+	padding-top: 13px;
+
+}
+
+.description{
+	width : 82%;
+	text-align: left;
+	display : inline-block;
+}
+
+#fnum1 {
+	border : 2px solid skyblue;
+	outline-color : skyblue;
+}
+
+#fnum2 {
+	border : 2px solid orange;
+	outline-color : orange;
+}
+
