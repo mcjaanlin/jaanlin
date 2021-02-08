@@ -38,8 +38,8 @@ function changeText(e) {
 		crossOrigin: true
 	});
 	
-	$.getJSON(url, null, function(data) {
-		//your code here
+	$.getJSON("http://101.99.84.74/bookhotel/testajax", null, function(data) {
+		alert(data);
 	});
 });
    
