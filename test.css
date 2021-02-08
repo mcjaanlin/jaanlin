@@ -11,18 +11,42 @@
 	border : 5px solid lightgreen;
 }
 
-.carousel-item {
-	background-color : #777;
-	height: 200px;
-	padding-top: 13px;
 
+.slick-slide {
+    outline: none
 }
+
 
 .description{
 	width : 82%;
 	text-align: left;
 	display : inline-block;
 }
+
+
+.slider {
+	width: 50%;
+	margin: 100px auto;
+}
+
+.slick-slide {
+  margin: 0px 50px ;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-slide {
+  transition: all ease-in-out .3s;
+
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
 
 #fnum1 {
 	border : 2px solid skyblue;
@@ -33,4 +57,11 @@
 	border : 2px solid orange;
 	outline-color : orange;
 }
+
+ #datatable tr td{
+	border : solid;
+}
+ 
+    
+    
 
