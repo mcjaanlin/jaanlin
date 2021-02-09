@@ -32,15 +32,9 @@ function changeText(e) {
       });
 	  
 	  createChart();
-	 // ajaxCall();
+	  ajaxCall();
 	 
-	  $.ajaxSetup({
-		crossOrigin: true
-	});
-	
-	$.getJSON("http://101.99.84.74/bookhotel/testajax", null, function(data) {
-		alert(data);
-	});
+	 
 });
    
  function createChart(){
