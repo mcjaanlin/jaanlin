@@ -122,7 +122,7 @@ function ajaxCall(){
 	
 	
 	$.ajax({
-	  url: 'http://101.99.84.74/bookhotel/testajax',
+	  url: 'http://101.99.84.74/bookhotel',
 	  crossDomain: true,
 	  error: function(jqXHR, textStatus, errorThrown) {
 		alert(textStatus + ": "+jqXHR.status +" " + errorThrown);
