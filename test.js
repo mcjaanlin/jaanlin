@@ -127,7 +127,7 @@ function ajaxCall(){
 	  error: function(jqXHR, textStatus, errorThrown) {
 		alert(textStatus + ": "+jqXHR.status +" " + errorThrown);
 	  },
-	  dataType: 'text',
+	  dataType: 'json',
 	  crossOrigin: true,
 	  success: function(data) {
 		table = "<table id='datatable' style='margin:auto;'><tr><td>Column 1</td><td>Column 2</td></tr></table>"
